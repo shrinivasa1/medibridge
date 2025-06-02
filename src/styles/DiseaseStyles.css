@@ -1,0 +1,26 @@
+.disease-page {
+  /* This ensures content area scrolls if needed */
+  overflow-y: auto;
+  
+  /* prevent overlapping navbar */
+  padding-top: 0;
+  justify-content: center;
+  margin-top: -110px;
+  image-resolution: 20px;
+
+}
+
+
+.disease-page input[type="checkbox"] {
+  accent-color: #0c0c0b;
+}
+
+/* Customize scrollbar if you want */
+.disease-page::-webkit-scrollbar {
+  width: 8px;
+}
+
+.disease-page::-webkit-scrollbar-thumb {
+  background-color: #ffd740;
+  border-radius: 4px;
+}
